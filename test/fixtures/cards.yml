@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  text: MyText
+  magicka_cost: 1
+  attack: 1
+  health: 1
+  set: MyString
+
+two:
+  name: MyString
+  text: MyText
+  magicka_cost: 1
+  attack: 1
+  health: 1
+  set: MyString
