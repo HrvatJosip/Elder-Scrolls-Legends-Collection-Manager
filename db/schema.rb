@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170324204416) do
+ActiveRecord::Schema.define(version: 20170324211105) do
 
   create_table "attributes_cards", id: false, force: :cascade do |t|
     t.integer "card_id",      null: false
@@ -28,6 +28,7 @@ ActiveRecord::Schema.define(version: 20170324204416) do
     t.datetime "updated_at",   null: false
     t.string   "quality_cd"
     t.string   "type_cd"
+    t.string   "race"
   end
 
 end
